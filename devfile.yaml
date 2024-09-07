@@ -1,1 +1,6 @@
 KUBEDOCK_ENABLED=true
+schemaVersion: 2.2.0
+components:
+  - name: universal-developer-image
+    container:
+      image: quay.io/devfile/universal-developer-image:ubi8-latest
